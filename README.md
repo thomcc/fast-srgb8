@@ -41,4 +41,4 @@ Public domain, as explained [here](https://creativecommons.org/publicdomain/zero
 
 The float->srgb code is originally¹ based on public domain routines by [Fabien "ryg" Giesen](https://fgiesen.wordpress.com), although I'm no longer sure where these are available.
 
-¹ (Well, specifically: The Rust code in this crate is ported from code in a C++ game engine of mine, which in turn, was based on the code from ryg).
+¹ (Well, specifically: The Rust code in this crate is ported from code in a C++ game engine of mine, which in turn, was based on the code from ryg. This doesn't make a difference, but increases the likelihood that any errors are solely my responsibility).

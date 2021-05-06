@@ -298,7 +298,7 @@ mod tests {
     #[test]
     fn test_from_srgb8() {
         let wanted = (0..=255).map(srgb8_to_f32_ref).collect::<Vec<_>>();
-        assert_eq!(&FROM_SRGB8_TABLE[..], &wanted);
+        assert_eq!(&FROM_SRGB8_TABLE[..], &wanted[..]);
         for i in 0..=255u8 {
             assert_eq!(srgb8_to_f32(i), srgb8_to_f32_ref(i));
             assert_eq!(f32_to_srgb8(srgb8_to_f32(i)), i, "{}", i);

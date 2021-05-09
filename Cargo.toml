@@ -1,6 +1,6 @@
 [package]
 name = "fast-srgb8"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2018"
 authors = ["Thom Chiovoloni <chiovolonit@gmail.com>"]
 readme = "README.md"
